@@ -594,6 +594,203 @@
 				)
 			)
 		)
+		(symbol "MJ-4PP-9:MJ-4PP-9"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MJ-4PP-9"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-4PP-9_0_1"
+				(rectangle
+					(start -10.16 3.81)
+					(end -11.43 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy -2.54 -5.08) (xy -3.81 -3.81) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 1.27 -2.54) (xy 0 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 5.08 0) (xy 3.81 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy -6.35 3.81) (xy -7.62 2.54) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 11.43 5.08)
+					(end -10.16 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJ-4PP-9_1_1"
+				(pin input line
+					(at 13.97 3.81 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -2604,16 +2801,12 @@
 		(uuid "0708d1b7-8eb6-44a0-bd92-81588cec88b2")
 	)
 	(no_connect
-		(at 85.09 93.98)
-		(uuid "49311550-2e45-4d29-819c-0c054ae680c4")
+		(at 189.23 88.9)
+		(uuid "5ccb081f-218b-403d-b342-e95f425ec5fd")
 	)
 	(no_connect
 		(at 372.11 91.44)
 		(uuid "84e15bef-2c3f-4bfc-ac9d-eb422650585a")
-	)
-	(no_connect
-		(at 85.09 116.84)
-		(uuid "bd7901c2-868c-41a3-9ef4-58d961fc61da")
 	)
 	(no_connect
 		(at 85.09 101.6)
@@ -3141,6 +3334,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80462ae9-03cd-4eb5-9dba-7d81b408361d")
+	)
+	(wire
+		(pts
 			(xy 276.86 160.02) (xy 276.86 168.91)
 		)
 		(stroke
@@ -3198,6 +3401,16 @@
 			(type default)
 		)
 		(uuid "8fd3ac58-b656-4eeb-8ee4-fe89190d464b")
+	)
+	(wire
+		(pts
+			(xy 189.23 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932a4e71-ff64-4e0b-93f2-dbec4b864299")
 	)
 	(wire
 		(pts
@@ -3398,6 +3611,16 @@
 			(type default)
 		)
 		(uuid "bcd677f1-a554-4c6a-a8c5-f4197fc85270")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd72c7d-9939-4aa7-a22c-2cc86ba0557c")
 	)
 	(wire
 		(pts
@@ -3669,6 +3892,16 @@
 		)
 		(uuid "f832f8db-ebea-4ba8-9130-e4272b573ef9")
 	)
+	(wire
+		(pts
+			(xy 189.23 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c87f98-821e-466c-917c-83382758602e")
+	)
 	(text "Key switches"
 		(exclude_from_sim no)
 		(at 86.614 147.32 0)
@@ -3745,6 +3978,17 @@
 			(justify left bottom)
 		)
 		(uuid "b30ef058-bf65-4fb0-aaa3-a6b870a8f2c3")
+	)
+	(text "TRRS"
+		(exclude_from_sim no)
+		(at 164.465 79.121 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left bottom)
+		)
+		(uuid "da947a72-1a00-4eb7-a959-e383b3fc9085")
 	)
 	(text "XIAO RP2040"
 		(exclude_from_sim no)
@@ -4391,6 +4635,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 196.85 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9fa63b9-d23e-444d-afa9-4c5fd30cf40a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.4791 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW0"
 		(shape input)
 		(at 176.53 187.96 0)
@@ -4426,6 +4692,28 @@
 		(uuid "b25a10ae-78ff-403e-bd3f-4d3184fd6b93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.73 161.7409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 85.09 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b42b5590-8a77-4387-b68b-98e0caddb088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5981 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,6 +4783,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 196.85 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3316700-28cf-4ac6-b0f7-a7ee4d5c704e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.3581 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4735,6 +5045,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 85.09 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9cb3830-bc3e-4b01-a615-457e74b4200b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.7191 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6365,6 +6697,80 @@
 		)
 	)
 	(symbol
+		(lib_id "MJ-4PP-9:MJ-4PP-9")
+		(at 175.26 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1907eb3d-0d87-47e9-ba7b-79228a1289c4")
+		(property "Reference" "J1"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJ-4PP-9"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MJ-4PP-9:MJ-4PP-9"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c56eda75-a61d-4674-939f-f8aa415c3e12")
+		)
+		(pin "1"
+			(uuid "9e2efe43-6ffa-4973-a738-a1b97e4e6edf")
+		)
+		(pin "4"
+			(uuid "8c48a72a-197e-41f3-b7a1-d02f740f2238")
+		)
+		(pin "2"
+			(uuid "7dc8c367-ca11-412d-a2e6-8f4e35cce6f0")
+		)
+		(instances
+			(project "manjaro_mx"
+				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 271.78 189.23 0)
 		(unit 1)
@@ -7378,6 +7784,72 @@
 			(project "manjaro_mx"
 				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "331fa0ae-34c1-462f-b89c-3944841fc371")
+		(property "Reference" "#PWR01"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5cb62f7-fc5a-438b-9247-41cb2ad9939e")
+		)
+		(instances
+			(project "manjaro_mx"
+				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
