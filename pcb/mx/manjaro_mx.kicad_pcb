@@ -229,7 +229,7 @@
 		(path "/7db07746-9a6f-4e75-9b59-db482a45ab6e")
 		(sheetname "ルート")
 		(sheetfile "manjaro_mx.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -2.06 -1.46)
 			(end -2.06 6.36)
@@ -747,7 +747,7 @@
 		(path "/1349b4cf-3b84-4dbf-b660-79836597a12c")
 		(sheetname "ルート")
 		(sheetfile "manjaro_mx.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -2419,7 +2419,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH top entry")
 		(property "Reference" "rBT1"
-			(at 1 -2.55 360)
+			(at 1 -2.55 0)
 			(layer "F.SilkS")
 			(uuid "eb1d0a1a-c982-4fe4-959a-0c4a6dde9ada")
 			(effects
@@ -2430,7 +2430,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 1 7.45 360)
+			(at 1 7.45 0)
 			(layer "F.Fab")
 			(uuid "52749fde-c916-43fe-a533-e8422ef59cbd")
 			(effects
@@ -2599,7 +2599,7 @@
 		(path "/b0468e3c-c019-4734-a128-7b2809092eb0")
 		(sheetname "ルート")
 		(sheetfile "manjaro_mx.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -2.06 -1.46)
 			(end -2.06 6.36)
@@ -3001,7 +3001,7 @@
 			(uuid "b0be6f86-f3d2-4cab-be5d-fc235d5def37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 2.5 360)
+			(at 1 2.5 0)
 			(layer "F.Fab")
 			(uuid "f66c5843-7c02-4f95-a830-9fc594e9a228")
 			(effects
@@ -31678,7 +31678,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0.000001 7.8 15)
+			(at 0.000002 7.8 15)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "512a3679-83e4-43be-85c7-b721cb209a83")
@@ -31893,7 +31893,7 @@
 				(xy 3.6 6.5) (xy 3.8 6.5) (xy 4.1 6.45) (xy 4.4 6.35) (xy 4.6 6.25) (xy 4.75 6.15) (xy 4.95 6) (xy 5.1 5.85)
 				(xy 5.25 5.65) (xy 5.4 5.4) (xy 5.5 5) (xy 5.5 4.6) (xy 5.35 4.5) (xy 5.2 4.4) (xy 4.75 4.65) (xy 4.5 4.75)
 				(xy 4.05 4.85) (xy 3.55 4.85) (xy 2.95 4.7) (xy 2.45 4.4) (xy 2.15 4.15) (xy 1.75 3.6) (xy 1.55 3.05)
-				(xy 1.5 2.6) (xy 1.25 2.800001) (xy 0.899999 2.9) (xy 0.4 2.950001) (xy -1.65 2.95) (xy -1.2 3.2)
+				(xy 1.5 2.6) (xy 1.25 2.800001) (xy 0.899999 2.9) (xy 0.4 2.950002) (xy -1.65 2.95) (xy -1.2 3.2)
 				(xy -0.95 3.4) (xy -0.65 3.75) (xy -0.5 4) (xy -0.35 4.35) (xy -0.25 4.75) (xy -0.25 5.05) (xy -0.25 5.4)
 				(xy -0.3 5.65) (xy -0.45 6.05) (xy -0.75 6.5)
 			)
@@ -37395,12 +37395,12 @@
 		(uuid "e86c141b-bbbb-4c9f-af40-a5b8b6d060b7")
 	)
 	(segment
-		(start 280 127.165)
-		(end 281.15 126.015)
+		(start 281.15 126.015)
+		(end 280 127.165)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 27)
-		(uuid "03dbcfdd-e8dd-40f1-b60c-b0eea2aeba59")
+		(uuid "12af1edd-47ae-4cd8-9635-29a7ad1f8a46")
 	)
 	(segment
 		(start 200.575 78.825)
@@ -37411,20 +37411,20 @@
 		(uuid "203295aa-339f-475b-82cf-7efb502be4c8")
 	)
 	(segment
-		(start 281.15 136.175)
-		(end 280 135.025)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "2223ae1c-d6ee-4304-a946-6aea83dfc9ae")
-	)
-	(segment
 		(start 201.75 77.25)
 		(end 201.75 80)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 27)
 		(uuid "3a990c14-ef5a-4b27-b92e-2163b2249171")
+	)
+	(segment
+		(start 280 132.485)
+		(end 281.15 133.635)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "4c06bbe0-02e7-4516-9c7d-4e99ceceaf6f")
 	)
 	(segment
 		(start 198 106)
@@ -37467,14 +37467,6 @@
 		(uuid "8e53c1bb-29ef-4cee-ba4f-145457e2a8a5")
 	)
 	(segment
-		(start 280 135.025)
-		(end 280 127.165)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "a7774d84-45b3-409e-aab0-5ad74739df2d")
-	)
-	(segment
 		(start 191 82.46)
 		(end 191 106)
 		(width 0.2)
@@ -37491,12 +37483,12 @@
 		(uuid "bee55221-44b5-472d-83e8-a1d455f0367c")
 	)
 	(segment
-		(start 281.15 136.175)
-		(end 281.15 133.635)
+		(start 280 127.165)
+		(end 280 132.485)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 27)
-		(uuid "cb0ef32b-1510-4c4a-91f6-35607b388b37")
+		(uuid "cdc5e93f-1686-4941-8a5f-938610cd4618")
 	)
 	(segment
 		(start 193.5 79.96)
