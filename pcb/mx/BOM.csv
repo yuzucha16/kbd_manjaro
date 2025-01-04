@@ -1,0 +1,7 @@
+"Designator","Comment","Datasheet","Footprint","Qty","DNP"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,rD1,rD2,rD3,rD4,rD5,rD6,rD7,rD8,rD9,rD10,rD11,rD12,rD13,rD14,rD15,rD16,rD17,rD18,rD19,rD20,rD21","1N4148WT","https://www.diodes.com/assets/Datasheets/ds30396.pdf","Keebio-Parts:D_SOD-323","45",""
+"EXSW1,rEXSW1","RotaryEncoder_Switch","~","Keebio-Parts:RotaryEncoder_EC11","2",""
+"J2,rJ2","MJ-4PP-9","","MJ-4PP-9:MJ-4PP-9","2",""
+"PowerSW1,rPowerSW1","SW_Wuerth_450301014042","https://www.we-online.com/components/products/datasheet/450301014042.pdf","Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm","2",""
+"rSW1,rSW2,rSW3,rSW4,rSW5,rSW6,rSW7,rSW8,rSW9,rSW10,rSW11,rSW12,rSW13,rSW14,rSW15,rSW16,rSW17,rSW18,rSW19,rSW20,rSW21,SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24","SW_Push","~","kbd:keyswitch_cherrymx_hotswap_1u","45",""
+"rU1,U1","nice_nano","","nice-nano-kicad:nice_nano","2",""

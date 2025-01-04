@@ -2876,6 +2876,12 @@
 		(uuid "3f476795-ac36-4a70-9ce3-82c5e26f5e6c")
 	)
 	(junction
+		(at 39.37 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2ce707-6d60-468f-834d-a4aee74fed0d")
+	)
+	(junction
 		(at 130.81 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3216,6 +3222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed665492-6446-4f4c-b037-84e0d28f24f2")
+	)
+	(junction
+		(at 69.85 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ede72133-4898-4f3b-843b-4b4675b3f271")
 	)
 	(junction
 		(at 140.97 189.23)
@@ -3633,6 +3645,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 209.55) (xy 39.37 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1d52dd-3255-4253-9bb8-bc171a7c1051")
+	)
+	(wire
+		(pts
 			(xy 231.14 238.76) (xy 242.57 238.76)
 		)
 		(stroke
@@ -3780,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "45c665f9-04d8-4c99-ab5a-fb63439513c3")
+	)
+	(wire
+		(pts
+			(xy 49.53 238.76) (xy 69.85 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a0afba-42f4-4875-9e69-cdef9b540ce4")
 	)
 	(wire
 		(pts
@@ -12076,6 +12108,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 49.53 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68cf397f-b95c-4dea-a4b1-7c4a95c044a0")
+		(property "Reference" "D24"
+			(at 52.07 234.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 52.07 236.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:D_SOD-323"
+			(at 53.975 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 49.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 49.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 49.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6d1771d-ceeb-4879-9d61-58fac0d8a6dd")
+		)
+		(pin "2"
+			(uuid "edcec067-f4f1-4b89-bfe7-c692937d345f")
+		)
+		(instances
+			(project "manjaro_mx"
+				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MJ-4PP-9:MJ-4PP-9")
 		(at 317.5 116.84 0)
 		(unit 1)
@@ -18544,6 +18665,73 @@
 			(project "manjaro_mx"
 				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 44.45 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebe946ee-d940-4789-bde5-b703fc9691cd")
+		(property "Reference" "SW24"
+			(at 44.45 225.044 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 44.45 227.076 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+			(at 44.45 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50aa4498-7f0a-49b4-a611-99de56f21e5a")
+		)
+		(pin "2"
+			(uuid "dd509811-5da8-45cc-a891-e1384c65493f")
+		)
+		(instances
+			(project "manjaro_mx"
+				(path "/d6bc4a6e-b820-400a-83ff-ae45032fef21"
+					(reference "SW24")
 					(unit 1)
 				)
 			)
